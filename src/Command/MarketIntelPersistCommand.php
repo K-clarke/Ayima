@@ -33,7 +33,7 @@ class MarketIntelPersistCommand extends Command
 
     protected function configure(): void
     {
-        $this->setDescription('Add a short description for your command');
+        $this->setDescription('This Command Gets Data From The Ayima API And Persists It To The Database');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): void
